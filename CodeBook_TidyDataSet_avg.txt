@@ -1,0 +1,84 @@
+Data Dictionary of TidyDataSet_avg.txt
+
+
+Original Data Source: 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+Data manipulation/analysis program: run_analysis.R 
+
+Target Data set: TidyDataSet_avg.txt
+-	180 observations, 69 variables
+
+Variable list:
+Variable Name	Type	Length	Description
+Subject	Numeric	2	Subject number
+group_flag	String	8	Study group the subject belongs to
+Activity	String	18	Activity being measured
+tBodyAcc-mean-X	Numeric	22	Mean of  mean of time ofbody acceleration signals- axial X
+tBodyAcc-mean-Y	Numeric	22	Mean of  mean of time ofbody acceleration signals- axial Y
+tBodyAcc-mean-Z	Numeric	22	Mean of  mean of time ofbody acceleration signals- axial Z
+tBodyAcc-std-X	Numeric	22	Mean of  standard deviation of time ofbody acceleration signals- axial X
+tBodyAcc-std-Y	Numeric	22	Mean of  standard deviation of time ofbody acceleration signals- axial Y
+tBodyAcc-std-Z	Numeric	22	Mean of  standard deviation of time ofbody acceleration signals- axial Z
+tGravityAcc-mean-X	Numeric	22	Mean of  mean of time ofgravity acceleration signals- axial X
+tGravityAcc-mean-Y	Numeric	22	Mean of  mean of time ofgravity acceleration signals- axial Y
+tGravityAcc-mean-Z	Numeric	22	Mean of  mean of time ofgravity acceleration signals- axial Z
+tGravityAcc-std-X	Numeric	22	Mean of  standard deviation of time ofgravity acceleration signals- axial X
+tGravityAcc-std-Y	Numeric	22	Mean of  standard deviation of time ofgravity acceleration signals- axial Y
+tGravityAcc-std-Z	Numeric	22	Mean of  standard deviation of time ofgravity acceleration signals- axial Z
+tBodyAccJerk-mean-X	Numeric	22	Mean of  mean of time ofbody linear acceleration- axial X
+tBodyAccJerk-mean-Y	Numeric	22	Mean of  mean of time ofbody linear acceleration- axial Y
+tBodyAccJerk-mean-Z	Numeric	22	Mean of  mean of time ofbody linear acceleration- axial Z
+tBodyAccJerk-std-X	Numeric	22	Mean of  standard deviation of time ofbody linear acceleration- axial X
+tBodyAccJerk-std-Y	Numeric	22	Mean of  standard deviation of time ofbody linear acceleration- axial Y
+tBodyAccJerk-std-Z	Numeric	22	Mean of  standard deviation of time ofbody linear acceleration- axial Z
+tBodyGyro-mean-X	Numeric	22	Mean of  mean of time ofbody gravity acceleration signals- axial X
+tBodyGyro-mean-Y	Numeric	22	Mean of  mean of time ofbody gravity acceleration signals- axial Y
+tBodyGyro-mean-Z	Numeric	22	Mean of  mean of time ofbody gravity acceleration signals- axial Z
+tBodyGyro-std-X	Numeric	22	Mean of  standard deviation of time ofbody gravity acceleration signals- axial X
+tBodyGyro-std-Y	Numeric	22	Mean of  standard deviation of time ofbody gravity acceleration signals- axial Y
+tBodyGyro-std-Z	Numeric	22	Mean of  standard deviation of time ofbody gravity acceleration signals- axial Z
+tBodyGyroJerk-mean-X	Numeric	22	Mean of  mean of time ofbody angular velocity- axialX
+tBodyGyroJerk-mean-Y	Numeric	22	Mean of  mean of time ofbody angular velocity- axialY
+tBodyGyroJerk-mean-Z	Numeric	22	Mean of  mean of time ofbody angular velocity- axialZ
+tBodyGyroJerk-std-X	Numeric	22	Mean of  standard deviation of time ofbody angular velocity- axial X
+tBodyGyroJerk-std-Y	Numeric	22	Mean of  standard deviation of time ofbody angular velocity- axial Y
+tBodyGyroJerk-std-Z	Numeric	22	Mean of  standard deviation of time ofbody angular velocity- axial Z
+tBodyAccMag-mean	Numeric	22	Mean of  mean of time of magnitude of body acceleration signals
+tBodyAccMag-std	Numeric	22	Mean of  standard deviation of time of magnitude of body acceleration signals
+tGravityAccMag-mean	Numeric	22	Mean of  mean of time of magnitude of gravity acceleration signals
+tGravityAccMag-std	Numeric	22	Mean of  standard deviation of time of magnitude of gravity acceleration signals
+tBodyAccJerkMag-mean	Numeric	22	Mean of  mean of time of magnitude of body linear acceleration
+tBodyAccJerkMag-std	Numeric	22	Mean of  standard deviation of time of magnitude of body linear acceleration
+tBodyGyroMag-mean	Numeric	22	Mean of  mean of time of magnitude of body gravity acceleration signals
+tBodyGyroMag-std	Numeric	22	Mean of  standard deviation of time of magnitude of body gravity acceleration signals
+tBodyGyroJerkMag-mean	Numeric	22	Mean of  mean of time of magnitude of body gravity acceleration signals
+tBodyGyroJerkMag-std	Numeric	22	Mean of  standard deviation of time of magnitude of body gravity acceleration signals
+fBodyAcc-mean-X	Numeric	22	Mean of  mean of frequency of body acceleration signals- axial X
+fBodyAcc-mean-Y	Numeric	22	Mean of  mean of frequency of body acceleration signals- axial Y
+fBodyAcc-mean-Z	Numeric	22	Mean of  mean of frequency of body acceleration signals- axial Z
+fBodyAcc-std-X	Numeric	22	Mean of  standard deviation of frequency of body acceleration signals- axial X
+fBodyAcc-std-Y	Numeric	22	Mean of  standard deviation of frequency of body acceleration signals- axial Y
+fBodyAcc-std-Z	Numeric	22	Mean of  standard deviation of frequency of body acceleration signals- axial Z
+fBodyAccJerk-mean-X	Numeric	22	Mean of  mean of frequency of body linear acceleration- axial X
+fBodyAccJerk-mean-Y	Numeric	22	Mean of  mean of frequency of body linear acceleration- axial Y
+fBodyAccJerk-mean-Z	Numeric	22	Mean of  mean of frequency of body linear acceleration- axial Z
+fBodyAccJerk-std-X	Numeric	22	Mean of  standard deviation of frequency of body linear acceleration- axial X
+fBodyAccJerk-std-Y	Numeric	22	Mean of  standard deviation of frequency of body linear acceleration- axial Y
+fBodyAccJerk-std-Z	Numeric	22	Mean of  standard deviation of frequency of body linear acceleration- axial Z
+fBodyGyro-mean-X	Numeric	22	Mean of  mean of frequency of magnitude of body gravity acceleration signals- axial X
+fBodyGyro-mean-Y	Numeric	22	Mean of  mean of frequency of magnitude of body gravity acceleration signals- axial Y
+fBodyGyro-mean-Z	Numeric	22	Mean of  mean of frequency of magnitude of body gravity acceleration signals- axial Z
+fBodyGyro-std-X	Numeric	22	Mean of  standard deviation of frequency of magnitude of body gravity acceleration signals- axial X
+fBodyGyro-std-Y	Numeric	22	Mean of  standard deviation of frequency of magnitude of body gravity acceleration signals- axial Y
+fBodyGyro-std-Z	Numeric	22	Mean of  standard deviation of frequency of magnitude of body gravity acceleration signals- axial Z
+fBodyAccMag-mean	Numeric	22	Mean of  mean of frequency of magnitude of body acceleration signals
+fBodyAccMag-std	Numeric	22	Mean of  standard deviation of frequency of magnitude of body acceleration signals
+fBodyBodyAccJerkMag-mean	Numeric	22	Mean of  mean of frequency of magnitude of body linear acceleration
+fBodyBodyAccJerkMag-std	Numeric	22	Mean of  standard deviation of frequency of magnitude of body linear acceleration
+fBodyBodyGyroMag-mean	Numeric	22	Mean of  mean of frequency of magnitude of body gravity acceleration signals
+fBodyBodyGyroMag-std	Numeric	22	Mean of  standard deviation of frequency of magnitude of body gravity acceleration signals
+fBodyBodyGyroJerkMag-mean	Numeric	22	Mean of  mean of frequency of magnitude of body angular velocity
+fBodyBodyGyroJerkMag-std	Numeric	22	Mean of  standard deviation of frequency of magnitude of body angular velocity
+
+
